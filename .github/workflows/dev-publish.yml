@@ -7,6 +7,8 @@ on:
       - 'release/*-beta'
     tags-ignore:
       - 'v*'
+    paths-ignore:
+      - 'AGENTS.md'
 
 jobs:
   dev-publish:
